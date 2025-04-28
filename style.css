@@ -1,1 +1,64 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 20px;
+}
+
+.success-work {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.certifications {
+    background-color: #3b7d58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 40px;
+}
+
+.certifications img {
+    height: 60px;
+}
+
+footer {
+    background-color: #0e1a23;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
